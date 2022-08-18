@@ -32,6 +32,3 @@ trip_data <- do.call(rbind, lapply(file_names, read_csv))
 setwd("./../..")
 getwd()
 
-# trip_data2 <- do.call(rbind, lapply(paste0("./data/data_raw/",file_names), read_csv))
-
-
